@@ -27,7 +27,7 @@ backup() {
   result=$(fibonacci $1)
   echo "Fibonacci result for $1 is: $result"
   
-  echo "Fibonacci result for $1: $result" > $backup_file
+  echo "Fibonacci result for $1: $result" >> $backup_file
 }
 
 if [ $# -eq 0 ]; then
