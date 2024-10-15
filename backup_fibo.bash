@@ -12,7 +12,7 @@ fibonacci() {
   b=1
   temp=0
 
-  while [ $num -le 10 ]; do
+  while [ $num <= 10 ]; do
     temp=$((a + b))
     a=$b
     b=$temp
